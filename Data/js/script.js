@@ -309,25 +309,6 @@ start.on('click', function(event) {
 
     point.eachLayer(function(layer) {
         var layerProperties = layer.feature.properties;
-
-        const windDirection = layer.feature.properties.WindDirection;
-
-
-        const latitude = layer.feature.properties.Lat3;
-        const longitude = layer.feature.properties.Lon3;
-
-
-        const windDegrees = windDirectionToDegrees(windDirection);
-
-
-        const windIcon = L.icon({
-            iconUrl: 'data/js/arrow.png', 
-            iconSize: [30, 30],
-            iconAnchor: [15, 15],
-            rotationAngle: 90 
-    });
-            
-        const latlng = L.latLng(latitude, longitude);
     
         if (layerProperties.VoyageIni === voyageIni && layerProperties.ShipName === shipName) {
 
