@@ -86,7 +86,7 @@ function windDirectionToDegrees(direction) {
 
 
 var ShipIcon = L.icon({
-        iconUrl: 'navire.png',
+        iconUrl: 'data/js/navire.png',
     
         iconSize:     [38, 38], 
         iconAnchor:   [0, 0], 
@@ -321,7 +321,7 @@ start.on('click', function(event) {
 
 
         const windIcon = L.icon({
-            iconUrl: 'arrow.png', 
+            iconUrl: 'data/js/arrow.png', 
             iconSize: [30, 30],
             iconAnchor: [15, 15],
             rotationAngle: 90 
