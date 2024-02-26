@@ -339,11 +339,7 @@ function updateShipOptions(selectedYear, selectedVoyage) {
 }
 
 function filterData() {
-    map.eachLayer(function(layer) {
-        if (layer instanceof L.Marker) {
-            map.removeLayer(layer);
-        }
-    });
+
     var selectedShipName = shipSelect.value;
     var selectedYear = yearSelect.value;
     var selectedVoyage = voyageSelect.value;
