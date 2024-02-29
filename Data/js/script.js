@@ -29,7 +29,7 @@ var darkLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/
 
 
 var ShipIcon = L.icon({
-        iconUrl: 'Data/navire.png',
+        iconUrl: 'Data/img/navire.png',
     
         iconSize:     [38, 38], 
         iconAnchor:   [0, 0], 
@@ -106,7 +106,7 @@ var start= L.geoJSON(start, {
 
 
 const windIcon = L.icon({
-    iconUrl: 'Data/fleche.png',
+    iconUrl: 'Data/img/fleche.png',
     iconSize: [30, 30],
     iconAnchor: [15, 15]
 });
