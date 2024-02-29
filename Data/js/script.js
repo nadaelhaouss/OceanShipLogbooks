@@ -802,6 +802,10 @@ console.log("Min Length:", minLength);
 
 const select = document.getElementById("QueryTest");
 select.addEventListener("change", () => {
+    map.eachLayer(function(layer) {
+            map.removeLayer(layer);
+        }
+    });
     const selectedValue = select.value;
     if (selectedValue !== "") {
         if (selectedValue === "Shortest trip" || selectedValue === "Longest trip") {
