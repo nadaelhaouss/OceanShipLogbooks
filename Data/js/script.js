@@ -597,8 +597,8 @@ populateDropdown(voyageSelect, allVoyages);
 
 
 var OverlayMaps = {
-    "Start": clusterLayer,
-    "Routes": routesGeoJSON,
+    "Departure Points": clusterLayer,
+    "Ship Roads": routesGeoJSON,
 };
 
 start.on('click', function(event) {
