@@ -1,11 +1,12 @@
 # OceanShipLogbooks
 
 This project allows the user to visualize the OceanShipLogbooks dataset in a map with an interactive panel.
+```
 
 ## Features
 
 * Trips of ships between 1750 to 1854 (GeoJSON)
-* Daily progression of these trips under points(GeoJSON)
+* Daily progression of these trips under points (GeoJSON)
 
 ## Installation
 
@@ -36,3 +37,5 @@ Nada El Haouss
 <br />For a Master 2 of Remote Sensing and Geomatics in Université Pantheon Sorbonne's project.
 
 ## License
+
+MIT License (MIT)
