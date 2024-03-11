@@ -24,6 +24,11 @@ This map allow you to visualize all ship trips of the Ocean Ship Logbook dataset
 <br />For example, you can search the precise trip of a precise ship in a specific year.
 <br />You can download all the data or a portion of it andx you can contact us if needed.
 
+<br/> Explication of the preprocessing 
+
+![image](https://github.com/nadaelhaouss/OceanShipLogbooks/assets/158164049/d69758db-e4b7-4bd3-b15a-ab7c6e60da6f)
+
+
 
 ## Documentation
 
